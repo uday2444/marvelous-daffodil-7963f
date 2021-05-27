@@ -1,0 +1,146 @@
+{
+    "base_font": "nunito-sans",
+    "palette": "blue",
+    "header": {
+        "logo_img": "images/marvelous-potato.svg",
+        "logo_img_alt": "Logo",
+        "has_nav": true,
+        "nav_links": [
+            {
+                "label": "About Us",
+                "url": "/about",
+                "style": "link"
+            },
+            {
+                "label": "Services",
+                "url": "/features",
+                "style": "link"
+            },
+            {
+                "label": "Blogs",
+                "url": "/pricing",
+                "style": "link"
+            },
+            {
+                "label": "Industries",
+                "url": "/style-guide",
+                "style": "link"
+            },
+            {
+                "label": "Contact us",
+                "url": "/signup",
+                "style": "primary"
+            }
+        ]
+    },
+    "footer": {
+        "sections": [
+            {
+                "type": "footer_text",
+                "image": "images/mighty-lavender.svg",
+                "image_url": "/",
+                "image_alt": "Footer logo",
+                "content": "\\#6, Daddys Southberg, Kammasandra, Electronic City, Bengaluru, Karnataka 560100\n"
+            },
+            {
+                "type": "footer_nav",
+                "title": "Company",
+                "nav_links": [
+                    {
+                        "label": "About Us",
+                        "url": "/about",
+                        "style": "link"
+                    },
+                    {
+                        "label": "Services",
+                        "url": "/blog",
+                        "style": "link"
+                    },
+                    {
+                        "label": "Blogs",
+                        "url": "/signup",
+                        "style": "link"
+                    },
+                    {
+                        "label": "Industries",
+                        "url": "/contact",
+                        "style": "link"
+                    },
+                    {
+                        "label": "Contact Us",
+                        "url": "#",
+                        "style": "link",
+                        "has_icon": false,
+                        "icon": "arrow-left",
+                        "icon_position": "left",
+                        "new_window": false,
+                        "no_follow": false,
+                        "type": "action"
+                    }
+                ]
+            },
+            {
+                "type": "footer_nav",
+                "title": "Community",
+                "nav_links": [
+                    {
+                        "style": "link",
+                        "has_icon": true,
+                        "icon": "instagram",
+                        "icon_position": "left",
+                        "label": "Instagram"
+                    },
+                    {
+                        "label": "LinkedIn",
+                        "url": "https://www.linkedin.com/",
+                        "style": "link",
+                        "has_icon": true,
+                        "icon": "linkedin",
+                        "icon_position": "left"
+                    },
+                    {
+                        "label": "Facebook",
+                        "url": "https://github.com/",
+                        "style": "link",
+                        "has_icon": true,
+                        "icon": "facebook",
+                        "icon_position": "left"
+                    }
+                ]
+            },
+            {
+                "type": "footer_form",
+                "title": "Subscribe",
+                "content": "Stay up to date with our latest developments.",
+                "form_id": "contactForm",
+                "hide_labels": true,
+                "form_fields": [
+                    {
+                        "input_type": "email",
+                        "name": "email",
+                        "label": "Email",
+                        "default_value": "Enter email address",
+                        "is_required": true
+                    }
+                ],
+                "submit_label": "Subscribe"
+            }
+        ],
+        "has_nav": true,
+        "nav_links": [
+            {
+                "label": "Terms of Service",
+                "url": "/terms-of-service",
+                "style": "link"
+            },
+            {
+                "label": "Privacy Policy",
+                "url": "/privacy-policy",
+                "style": "link"
+            }
+        ],
+        "content": "&copy;erainterfaces. All rights reserved."
+    },
+    "title": "Azimuth",
+    "domain": "https://marvelous-daffodil-7963f.netlify.app"
+}
